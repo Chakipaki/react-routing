@@ -6,7 +6,7 @@ const MainNavigation = (props) => {
     const navigate = useNavigate();
 
     const navigateHandler = (e) => {
-        navigate('/products');
+        navigate('products');
     }
 
     return (
@@ -25,7 +25,7 @@ const MainNavigation = (props) => {
 
                     <li>
                         <NavLink
-                            to="/products"
+                            to="products"
                             className={({isActive}) => isActive ? classes.active : ''}
                         >
                             Products

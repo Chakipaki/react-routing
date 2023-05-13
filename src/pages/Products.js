@@ -7,7 +7,7 @@ const ProductsPage = (props) => {
 
             <ul>
                 <li>
-                    <Link to="/products/product-1">Product 1</Link>
+                    <Link to="product-1">Product 1</Link>
                 </li>
             </ul>
         </>
